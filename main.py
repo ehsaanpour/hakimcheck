@@ -17,7 +17,7 @@ hakim_excel = pd.read_excel('south.xlsx')
 hakim_dataframe = pd.DataFrame(hakim_excel)
 datframe_list = hakim_dataframe.values.tolist()
 col1,col2,col3 = st.columns(3)
-col2.image('logohakim.jpeg')
+#col2.image('logohakim.jpeg')
 
 block = st.selectbox("انتخاب مجتمع و زیربلوک", ["-","A1-1", "A1-2","A1-3","A1-4","A1-5","A1-6","A2-1","A2-2","A2-3","A2-4","A2-5","A2-6","A3-1","A3-2"])
 floor = st.selectbox("انتخاب طبقه",['-','اول','دوم','سوم','چهارم','پنجم','ششم','هفتم','هشتم'])
